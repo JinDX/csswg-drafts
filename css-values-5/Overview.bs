@@ -2592,10 +2592,10 @@ Generating a Random Numeric Value: the ''random()'' function</h3>
 
 		: <css><<calc-sum>>, <<calc-sum>></css>
 		:: The two required [=calculations=]
-			specify the  minimum and maximum value
-			the function can resolve to.
-			Both limits are inclusive
-			(the result can be the min or the max).
+			specify the minimum and maximum bounds on the result.
+			Without a step, if the bounds differ, the result can equal the minimum
+			and is less than the maximum before implementation rounding.
+			With a step, the maximum is only a possible result as described below.
 
 			If the maximum value is less than the minimum value,
 			it behaves as if it's equal to the minimum value.
@@ -2603,7 +2603,7 @@ Generating a Random Numeric Value: the ''random()'' function</h3>
 			<div class=example>
 				For example, ''random(100px, 300px)''
 				will resolve to a random <<length>> between ''100px'' and ''300px'':
-				it might be ''100px'', ''300px'', or any value between them like ''234.5px''.
+				it might be ''100px'' or a value like ''234.5px''.
 			</div>
 
 		: <css><<calc-sum>>?</css>
