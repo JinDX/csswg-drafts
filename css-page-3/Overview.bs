@@ -1893,8 +1893,8 @@ Rotating The Printed Page: the '@page/page-orientation' property</h4>
 	so an author can choose the size of a page
 	according to what's best for that page's content.
 	For example,
-	they might use ''size: letter portrait;'' for most pages in a document,
-	but switch to ''size: letter landscape;''
+	they might use <a data-link-type="descriptor" data-link-for="@page" data-lt="size"><code>size: letter portrait;</code></a> for most pages in a document,
+	but switch to <a data-link-type="descriptor" data-link-for="@page" data-lt="size"><code>size: letter landscape;</code></a>
 	to lay out a wide information table.
 
 	However, handling content flowing across pages of differing widths
