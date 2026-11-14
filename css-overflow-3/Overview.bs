@@ -355,7 +355,7 @@ Managing Overflow: the 'overflow-x', 'overflow-y', and 'overflow' properties</h3
 		Name: overflow-x, overflow-y, overflow-block, overflow-inline
 		Value: visible | hidden | clip | scroll | auto
 		Initial: ''visible''
-		Applies to: [=block containers=] [[!CSS2]], [=flex containers=] [[!CSS-FLEXBOX-1]], [=grid containers=] [[!CSS-GRID-1]], and [=table grid boxes=] [[!CSS-TABLES-3]]
+		Applies to: [=block containers=] [[!CSS2]], [=flex containers=] [[!CSS-FLEXBOX-2]], [=grid containers=] [[!CSS-GRID-2]], and [=table grid boxes=] [[!CSS-TABLES-3]]
 		Inherited: no
 		Logical property group: overflow
 		Percentages: N/A
