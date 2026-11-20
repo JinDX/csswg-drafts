@@ -212,7 +212,7 @@ Only ~12-15 characters fit on a line.
 		&lt;style>
 		h1 {
 			/*
-			  Multiply the 2em baseline by a dampening factor to ensure headers
+			  Multiply the 2rem baseline by a dampening factor to ensure headers
 			  scale up slower than the body text, preventing them from becoming
 			  too large.
 
