@@ -4483,7 +4483,7 @@ Recent Changes</h3>
 		(<a href="https://github.com/w3c/csswg-drafts/issues/5079">Issue 5079</a>)
 	* Clarified that tree-counting functions use the DOM tree (like '':nth-child()''/etc Selectors) rather than the flat tree,
 		and that they don't expose counts from an inner tree.
-		(<a href="https://github.com/w3c/csswg-drafts/issues/9562">Issue 9462</a>,
+		(<a href="https://github.com/w3c/csswg-drafts/issues/9562">Issue 9562</a>,
 		 <a href="https://github.com/w3c/csswg-drafts/issues/9573">Issue 9573</a>)
 	* Renamed ''toggle()'' to ''cycle()''.
 		(<a href="https://github.com/w3c/csswg-drafts/issues/14288">14288</a>)
