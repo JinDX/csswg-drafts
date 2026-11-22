@@ -472,6 +472,8 @@ run these steps:
 
     1. Set |this|.|contentRect|.top and |this|.contentRect.left to 0.
 
+9. Return |this|.
+
 <h4 id="broadcast-resize-notifications-h">Broadcast active resize observations</h4>
 
 <dfn>broadcast active resize observations</dfn> delivers all active resize
