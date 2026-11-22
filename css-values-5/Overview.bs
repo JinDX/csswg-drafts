@@ -3298,14 +3298,14 @@ Simplification of <<random-key>></h4>
 						style(/*eA*/random(auto, ...) < 0.5):
 							/*lA*/random(auto, ...);
 						else:
-							/*lB*/random(auto, ...))
+							/*lB*/random(auto, ...)
 					)
 					+
 					if(
 						style(/*eB*/random(auto, ...) < 0.5):
 							/*lC*/random(auto, ...);
 						else:
-							/*lD*/random(auto, ...))
+							/*lD*/random(auto, ...)
 					)
 				);
 			}
@@ -3324,14 +3324,14 @@ Simplification of <<random-key>></h4>
 						style(/*eA*/random(element-scoped ua-early-width-1, ...) < 0.5):
 							/*lA*/random(auto, ...);
 						else:
-							/*lB*/random(auto, ...))
+							/*lB*/random(auto, ...)
 					)
 					+
 					if(
 						style(/*eB*/random(element-scoped ua-early-width-2, ...) < 0.5):
 							/*lC*/random(auto, ...);
 						else:
-							/*lD*/random(auto, ...))
+							/*lD*/random(auto, ...)
 					)
 				);
 			}
@@ -3353,7 +3353,6 @@ Simplification of <<random-key>></h4>
 					/*lA*/random(element-scoped ua-width-1, ...)
 					+
 					/*lD*/random(element-scoped ua-width-2, ...)
-					)
 				);
 			}
 			</xmp>
