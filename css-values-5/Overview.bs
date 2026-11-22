@@ -995,9 +995,7 @@ Normalizing Mix Percentages</h3>
 		6. Return |items| and |leftover|.
 
 		Note: At the end of this algorithm, every percentage is set,
-		and the sum of all percentages is either 0%
-		(if they were all specified as 0% to begin with)
-		or 100%.
+		and their sum is at most 100%.
 		The |leftover| value will be applied to the usage-specific “none” type value
 		mixed into the final result.
 	</div>
