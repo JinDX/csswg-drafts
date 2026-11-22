@@ -3409,7 +3409,7 @@ Below are the equivalents for each of the filter functions expressed in terms of
 
 <pre><code highlight=svg>
     &lt;filter id="blur"&gt;
-      &lt;feGaussianBlur stdDeviation="[radius radius]" edgeMode="[edge mode]" &gt;
+      &lt;feGaussianBlur stdDeviation="[radius radius]" edgeMode="[edge mode]" /&gt;
     &lt;/filter&gt;
 </code></pre>
 
