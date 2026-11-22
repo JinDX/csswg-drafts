@@ -503,7 +503,7 @@ Highlight types</h4>
 	Note: For example,
 	if a platform accessibility API has the capability to express spelling errors and grammar errors specifically,
 	then UAs is expected to use these capabilities to convey the semantics for highlights
-	with {{HighlightType/spelling-error}} and {{HighlightType/spelling-error}}.
+	with {{HighlightType/spelling-error}} and {{HighlightType/grammar-error}}.
 	If an accessibility API only has the capability to express spelling errors,
 	then UAs would be expected to convey both highlights with {{HighlightType/spelling-error}}
 	and with {{HighlightType/grammar-error}} using spelling error semantics.
