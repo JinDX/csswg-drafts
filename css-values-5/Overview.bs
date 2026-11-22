@@ -2068,8 +2068,7 @@ html-attr-case-insensitivity.html
 		(just an identifier is given, like ''attr(foo)''),
 		the null namespace is implied.
 		(This is usually what's desired,
-		as namespaced attributes are rare.
-		In particular, HTML and SVG do not contain namespaced attributes.)
+		as most HTML and SVG attributes have no namespace.)
 		Unless otherwise specified,
 		the case-sensitivity/matching rules of <<attr-name>>
 		are identical to [=attribute selectors=]
