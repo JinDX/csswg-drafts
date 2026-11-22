@@ -861,7 +861,7 @@ The number and size of columns</h2>
 
 	If you set 'column-height' and 'height' on a multicol container,
 	you may end up with some additional space.
-	The properties defined in the [[CSS-ALIGN]] specification detail how to deal with it.
+	The properties defined in the [[CSS3-ALIGN]] specification detail how to deal with it.
 
 	When 'column-height' is not 'column-height/auto' the size in the block direction is not flexible.
 	If there is not enough content to fill a row of columns at the set size,
