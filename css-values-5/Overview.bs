@@ -2592,18 +2592,20 @@ Generating a Random Numeric Value: the ''random()'' function</h3>
 
 		: <css><<calc-sum>>, <<calc-sum>></css>
 		:: The two required [=calculations=]
-			specify the  minimum and maximum value
-			the function can resolve to.
-			Both limits are inclusive
-			(the result can be the min or the max).
+			specify the minimum and maximum bounds on the result.
+			Without a step, if the minimum is finite and less than a finite maximum,
+			and their difference is neither infinite nor treated as infinite by the user agent,
+			the unrounded result can equal the minimum but is less than the maximum.
+			Implementation rounding can produce the maximum.
+			See [[#random-infinities]] for other argument ranges.
 
 			If the maximum value is less than the minimum value,
 			it behaves as if it's equal to the minimum value.
 
 			<div class=example>
 				For example, ''random(100px, 300px)''
-				will resolve to a random <<length>> between ''100px'' and ''300px'':
-				it might be ''100px'', ''300px'', or any value between them like ''234.5px''.
+				can resolve, before rounding, to ''100px''
+				or a greater <<length>> below ''300px'', such as ''234.5px''.
 			</div>
 
 		: <css><<calc-sum>>?</css>
