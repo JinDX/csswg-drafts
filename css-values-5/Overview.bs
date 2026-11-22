@@ -1389,7 +1389,7 @@ Normalizing Absolute Positions and Progress</h4>
 		For example, given a function like:
 
 		<pre highlight=css>
-			background-color: color-interpolate(300px in hsl, 200px: red, 500px: green, 600px: blue);
+			background-color: color-interpolate(300px in hsl, 200px: red, 500px: lime, 600px: blue);
 		</pre>
 
 		The [=interpolation range=] is ''(200px, 600px)'',
@@ -1399,10 +1399,10 @@ Normalizing Absolute Positions and Progress</h4>
 		Thus, that function is equivalent to:
 
 		<pre highlight=css>
-			background-color: color-interpolate(25% in hsl, 0%: red, 75%: green, 100%: blue);
+			background-color: color-interpolate(25% in hsl, 0%: red, 75%: lime, 100%: blue);
 		</pre>
 
-		In either case, the result will be a color 1/3 of the way between ''red'' and ''green''
+		In either case, the result will be a color 1/3 of the way between ''red'' and ''lime''
 		using HSL interpolation,
 		giving ''hsl(40deg, 100%, 50%)'', a light orange.
 	</div>
